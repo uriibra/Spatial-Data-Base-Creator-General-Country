@@ -42,10 +42,10 @@ def plot_matrix(matrix_list: tuple[pd.DataFrame], filename: str, output_folder: 
     # Your Basemap Configuration
     my_map = Basemap(
         projection='merc',
-        llcrnrlon=min_lon - 0.5,
-        llcrnrlat=min_lat - 0.5,
-        urcrnrlon=max_lon + 0.5,
-        urcrnrlat=max_lat + 0.5,
+        llcrnrlon=min_lon - 0.7,
+        llcrnrlat=min_lat - 0.7,
+        urcrnrlon=max_lon + 0.7,
+        urcrnrlat=max_lat + 0.7,
         resolution='i',
         area_thresh=10000,
         suppress_ticks=False
